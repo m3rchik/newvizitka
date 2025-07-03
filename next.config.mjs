@@ -5,8 +5,6 @@ const nextConfig = {
   compress: true,
   images: {
     unoptimized: true,
-    loader: 'custom',
-    loaderFile: './src/utils/imageLoader.ts',
   },
   experimental: {
     optimizePackageImports: ['framer-motion', 'lucide-react'],

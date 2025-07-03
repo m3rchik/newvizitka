@@ -6,10 +6,10 @@ import Image from 'next/image';
 import imageLoader from '@/utils/imageLoader';
 
 const stats = [
-  { icon: '/file.svg', text: '5+ лет опыта', subtext: 'в разработке' },
-  { icon: '/globe.svg', text: '10+ проектов', subtext: 'успешно завершено' },
-  { icon: '/window.svg', text: 'Современный стек', subtext: 'технологий' },
-  { icon: '/vercel.svg', text: 'Оптимизация', subtext: 'и производительность' }
+  { icon: '/newvizitka/file.svg', text: '5+ лет опыта', subtext: 'в разработке' },
+  { icon: '/newvizitka/globe.svg', text: '10+ проектов', subtext: 'успешно завершено' },
+  { icon: '/newvizitka/window.svg', text: 'Современный стек', subtext: 'технологий' },
+  { icon: '/newvizitka/vercel.svg', text: 'Оптимизация', subtext: 'и производительность' }
 ];
 
 const technologies = [

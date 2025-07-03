@@ -9,7 +9,7 @@ const projects = [
   {
     title: 'Портфолио видеомонтажера',
     description: 'Персональный сайт-портфолио с современным дизайном и анимациями. Разработан на Next.js с использованием TypeScript и Tailwind CSS.',
-    image: '/projects/kamilvizitka.jpg',
+    image: '/newvizitka/projects/kamilvizitka.jpg',
     github: 'https://github.com/m3rchik/kamilvizitka',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
     preview: 'kamilvizitka.vercel.app'
@@ -17,7 +17,7 @@ const projects = [
   {
     title: 'Article Website',
     description: 'Веб-приложение для управления статьями с использованием Flask. Включает функционал просмотра, добавления и редактирования статей.',
-    image: '/projects/article.jpg',
+    image: '/newvizitka/projects/article.jpg',
     github: 'https://github.com/m3rchik/second-project',
     technologies: ['Python', 'Flask', 'SQLite', 'HTML/CSS'],
     preview: null
@@ -25,7 +25,7 @@ const projects = [
   {
     title: 'Skupka Project',
     description: 'Веб-сайт для сервиса скупки с адаптивным дизайном и интерактивными элементами.',
-    image: '/projects/skupka.jpg',
+    image: '/newvizitka/projects/skupka.jpg',
     github: 'https://github.com/m3rchik/skupka',
     technologies: ['HTML', 'Python', 'CSS', 'JavaScript'],
     preview: null
