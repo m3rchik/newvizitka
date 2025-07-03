@@ -46,8 +46,6 @@ const nextConfig = {
     return config;
   },
   output: 'export',
-  basePath: '/newvizitka',
-  assetPrefix: '/newvizitka/',
 };
 
 export default nextConfig; 
