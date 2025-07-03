@@ -12,6 +12,7 @@ const nextConfig = {
     ],
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 60,
+    unoptimized: true,
   },
   experimental: {
     optimizePackageImports: ['framer-motion', 'lucide-react'],
@@ -44,6 +45,9 @@ const nextConfig = {
     };
     return config;
   },
+  output: 'export',
+  basePath: '/newvizitka',
+  assetPrefix: '/newvizitka/',
 };
 
 export default nextConfig; 
