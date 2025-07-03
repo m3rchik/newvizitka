@@ -4,15 +4,9 @@ const nextConfig = {
   poweredByHeader: false,
   compress: true,
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**',
-      },
-    ],
-    formats: ['image/avif', 'image/webp'],
-    minimumCacheTTL: 60,
     unoptimized: true,
+    loader: 'custom',
+    loaderFile: './src/utils/imageLoader.ts',
   },
   experimental: {
     optimizePackageImports: ['framer-motion', 'lucide-react'],

@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import AnimatedText from './AnimatedText';
+import imageLoader from '@/utils/imageLoader';
 
 const projects = [
   {
@@ -52,6 +53,7 @@ export default function Projects() {
             >
               <div className="relative h-48 w-full overflow-hidden">
                 <Image
+                  loader={imageLoader}
                   src={project.image}
                   alt={project.title}
                   fill

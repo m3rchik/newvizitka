@@ -3,6 +3,7 @@
 import { motion, useReducedMotion } from 'framer-motion';
 import { useEffect, useState, useMemo } from 'react';
 import Image from 'next/image';
+import imageLoader from '@/utils/imageLoader';
 
 const stats = [
   { icon: '/file.svg', text: '5+ лет опыта', subtext: 'в разработке' },
@@ -273,6 +274,7 @@ export default function Hero() {
             <div key={index} className="glass p-6 rounded-xl text-center">
               <div className="relative w-12 h-12 mx-auto mb-4">
                 <Image
+                  loader={imageLoader}
                   src={item.icon}
                   alt={item.text}
                   fill
@@ -388,6 +390,7 @@ export default function Hero() {
             >
               <div className="relative w-12 h-12 mx-auto mb-4">
                 <Image
+                  loader={imageLoader}
                   src={item.icon}
                   alt={item.text}
                   fill
